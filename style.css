@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    background-color: rgb(152, 0, 0);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date__number {
+    position: absolute;
+}
+
+.date_img-wrap {
+    display: flex;
+}
+
+.date__img {
+    height: 50%;
+    width: 50%;
+}
+
+.date_img2 {
+    height: 41%;
+    width: 41%;
+}
+
+
+.date__month {}
+
+.filicitacion {
+    background-color: goldenrod;
+    position: relative;
+    width: 40%;
+    font-size: 60px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+
+}
+
+
+
+
+.filicitation__text {
+    position: relative;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
